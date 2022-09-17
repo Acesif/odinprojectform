@@ -1,0 +1,97 @@
+.reg-form {
+  display: flex;
+  position: relative;
+  top: 8rem;
+  margin-left: 25rem;
+  margin-right: 10rem;
+  flex-direction: column;
+  align-items: center;
+  border: 0.3125rem #BD0017;
+  border-style: dashed none dashed none;
+  padding: 30px 40px;
+}
+.reg-form h2 {
+  margin-bottom: 3.125rem;
+}
+.reg-form button {
+  margin-top: 30px;
+  padding: 20px 30px;
+  background-color: rgba(26, 255, 212, 0.3);
+  border: none;
+}
+.reg-form button:hover {
+  background-color: transparent;
+  transition: 0.5s;
+  border: 2px rgba(26, 255, 212, 0.3) dashed;
+}
+.reg-form form {
+  width: 83%;
+}
+.reg-form form .segment {
+  display: flex;
+  justify-content: space-between;
+}
+.reg-form form .segment .a, .reg-form form .segment .b {
+  display: flex;
+  flex-direction: column;
+}
+.reg-form form .segment .a input, .reg-form form .segment .b input {
+  border: 1px solid red;
+  color: white;
+  transition: 0.5s;
+  outline: none;
+  margin-bottom: 20px;
+  background-color: rgba(26, 255, 212, 0.3);
+}
+.reg-form form .segment .a input:focus, .reg-form form .segment .b input:focus {
+  border: 3px solid green;
+}
+.reg-form form .segment .a label, .reg-form form .segment .b label {
+  padding-bottom: 10px;
+}
+.reg-form form .segment .a #cVal, .reg-form form .segment .b #cVal {
+  color: rgba(64, 224, 208, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: url("./ayeseeyou-removebg-preview-removebg-preview.png") 50 37.5, auto;
+}
+
+::-moz-placeholder {
+  color: turquoise;
+  opacity: 0.4;
+}
+
+:-ms-input-placeholder {
+  color: turquoise;
+  opacity: 0.4;
+}
+
+::placeholder {
+  color: turquoise;
+  opacity: 0.4;
+}
+
+body {
+  height: 100vh;
+  background-image: url(./form.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(6, 0, 20);
+}
+
+.text {
+  font-family: "cyber";
+  letter-spacing: 3px;
+  color: #FFCA8B;
+  -webkit-text-stroke: 0.1px #D1021D;
+  text-shadow: 2px 2px #D1021D;
+}
+
+@font-face {
+  font-family: "cyber";
+  src: url(./Eternal.otf);
+}/*# sourceMappingURL=style.css.map */

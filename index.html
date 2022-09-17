@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CyberRegistration</title>
+</head>
+<body>
+    <div class="reg-form">
+        <h2 class="text">Hadron-Jet License Registration</h2>
+        <form action="#" method="post">
+            <div class="segment">
+                <div class="a">
+                    <label class="text" for="vname">Vehicle ID</label>
+                    <input type="text" placeholder="Enter vehicle ID" required name="vname" id="vname">
+                    <label class="text" for="dID">Driver ID</label>
+                    <input type="text" placeholder="Enter driver ID" required name="dID" id="dID">    
+                    <label class="text" for="cMod">Cell-Model</label>
+                    <input type="text" title="Model must have 5 characters, followed by 4 numbers " placeholder="[5-char][4-num]" pattern="[a-zA-Z]{5}[0-9]{4}" required name="dID" id="dID">    
+                </div>
+                <div class="b">
+                    <label class="text" for="vclass">Vehicle Class</label>
+                    <input type="text" placeholder="Enter vehicle class" name="vclass" id="vclass">
+                    <label class="text" for="dRank">Driver Rank</label>
+                    <input type="number" placeholder="Enter driver Rank" min="0" max="5" name="dRank" id="dRank">    
+                    <label class="text" for="cVal">Cell-Validity</label>
+                    <input type="date" required name="cVal" id="cVal">    
+                </div>
+            </div>
+        </form>
+        <button class="text" type="submit">Submit</button>
+    </div>
+</body>
+</html>

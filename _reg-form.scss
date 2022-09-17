@@ -1,0 +1,54 @@
+.reg-form{
+    h2{
+        margin-bottom: 3.125rem;
+    }
+    display: flex;
+    position: relative;
+    top: 8rem;
+    margin-left: 25rem;
+    margin-right: 10rem;
+    flex-direction: column;
+    align-items: center;
+    border: .3125rem #BD0017;
+    border-style: dashed none dashed none;
+    padding: 30px 40px;
+    button{
+        margin-top: 30px;
+        padding: 20px 30px;
+        background-color: rgba(26, 255, 212, 0.3);
+        border: none;
+    }
+    button:hover{
+        background-color: transparent;
+        transition: 0.5s;
+        border: 2px rgba(26, 255, 212, 0.3) dashed;
+    }
+    form{
+        width: 83%;
+        .segment{
+            display: flex;
+            justify-content: space-between;
+            .a,.b{
+                display: flex;
+                flex-direction: column;
+                input{
+                    border: 1px solid red;
+                    color: white;
+                    transition: 0.5s;
+                    outline: none;
+                    margin-bottom: 20px;
+                    background-color: rgba(26, 255, 212, 0.3);
+                  }
+                  input:focus {
+                    border: 3px solid green;
+                  }
+                label{
+                    padding-bottom: 10px;
+                }
+                #cVal{
+                    color: rgba(64, 224, 208,0.4);
+                }
+            }
+        } 
+    }
+}

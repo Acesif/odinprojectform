@@ -1,0 +1,30 @@
+@import "_reg-form";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: url('./ayeseeyou-removebg-preview-removebg-preview.png') 50 37.5,auto;
+}
+::placeholder{
+    color: turquoise;
+    opacity: 0.4;
+}
+body{
+    height: 100vh;
+    background-image: url(./form.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(6,0,20);
+}
+//helper classes
+.text{
+    font-family: "cyber";
+    letter-spacing: 3px;
+    color: #FFCA8B;
+    -webkit-text-stroke: 0.1px #D1021D;
+    text-shadow: 2px 2px#D1021D;
+}
+@font-face {
+    font-family: "cyber";
+    src: url(./Eternal.otf);
+}
