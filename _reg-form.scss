@@ -5,8 +5,8 @@
     display: flex;
     position: relative;
     top: 8rem;
-    margin-left: 25rem;
-    margin-right: 10rem;
+    margin-left: 35em;
+    margin-right: 10em;
     flex-direction: column;
     align-items: center;
     border: .3125rem #BD0017;
@@ -34,8 +34,10 @@
                 input{
                     border: 1px solid red;
                     color: white;
+                    font-size: 1.25rem;
                     transition: 0.5s;
                     outline: none;
+                    padding: 1.2rem 1.5rem;
                     margin-bottom: 20px;
                     background-color: rgba(26, 255, 212, 0.3);
                   }
@@ -47,6 +49,7 @@
                 }
                 #cVal{
                     color: rgba(64, 224, 208,0.4);
+                    font-size: 1.25rem;
                 }
             }
         } 

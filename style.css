@@ -2,8 +2,8 @@
   display: flex;
   position: relative;
   top: 8rem;
-  margin-left: 25rem;
-  margin-right: 10rem;
+  margin-left: 35em;
+  margin-right: 10em;
   flex-direction: column;
   align-items: center;
   border: 0.3125rem #BD0017;
@@ -38,8 +38,10 @@
 .reg-form form .segment .a input, .reg-form form .segment .b input {
   border: 1px solid red;
   color: white;
+  font-size: 1.25rem;
   transition: 0.5s;
   outline: none;
+  padding: 1.2rem 1.5rem;
   margin-bottom: 20px;
   background-color: rgba(26, 255, 212, 0.3);
 }
@@ -51,6 +53,7 @@
 }
 .reg-form form .segment .a #cVal, .reg-form form .segment .b #cVal {
   color: rgba(64, 224, 208, 0.4);
+  font-size: 1.25rem;
 }
 
 * {
@@ -63,16 +66,19 @@
 ::-moz-placeholder {
   color: turquoise;
   opacity: 0.4;
+  font-size: 1.25rem;
 }
 
 :-ms-input-placeholder {
   color: turquoise;
   opacity: 0.4;
+  font-size: 1.25rem;
 }
 
 ::placeholder {
   color: turquoise;
   opacity: 0.4;
+  font-size: 1.25rem;
 }
 
 body {
@@ -87,6 +93,7 @@ body {
   font-family: "cyber";
   letter-spacing: 3px;
   color: #FFCA8B;
+  font-size: 1.75em;
   -webkit-text-stroke: 0.1px #D1021D;
   text-shadow: 2px 2px #D1021D;
 }
